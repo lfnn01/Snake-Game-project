@@ -1,0 +1,10 @@
+# Snake Game
+
+## How to Download and Play
+1. Go to the [Releases](https://github.com/your-username/your-repository/releases) page.
+2. Download the **`DOWNLOAD ME`** folder.
+3. Inside the folder, you'll find the **`snake game final project.exe`**. Double-click to start playing!
+
+## Requirements
+- Windows OS.
+- .NET runtime (if necessary).
