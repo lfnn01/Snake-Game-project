@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Snake_Game_Final_project</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Adzkia.ttf" />
+    <None Remove="Assets\cs body.png" />
+    <None Remove="Assets\cs dead body.png" />
+    <None Remove="Assets\cs dead head.png" />
+    <None Remove="Assets\cs food.png" />
+    <None Remove="Assets\cs head.png" />
+    <None Remove="Assets\cs icon.ico" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\Red Spider Lily.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GridValue\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Adzkia.ttf" />
+    <Resource Include="Assets\cs body.png" />
+    <Resource Include="Assets\cs dead body.png" />
+    <Resource Include="Assets\cs dead head.png" />
+    <Resource Include="Assets\cs food.png" />
+    <Resource Include="Assets\cs head.png" />
+    <Resource Include="Assets\cs icon.ico" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\Red Spider Lily.jpg" />
+  </ItemGroup>
+
+</Project>

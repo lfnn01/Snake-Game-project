@@ -1,0 +1,17 @@
+﻿<Application x:Class="Snake_Game_Final_project.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Snake_Game_Final_project"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundColor">#400d66</SolidColorBrush>
+        <SolidColorBrush x:Key="GridBackgroundColor">#6845a8</SolidColorBrush>
+        <SolidColorBrush x:Key="GridLineColor">#4f0e50</SolidColorBrush>
+        <SolidColorBrush x:Key="TextColor">#dae8d3</SolidColorBrush>
+        <SolidColorBrush x:Key="OverlayColor">#4f5e5000</SolidColorBrush>
+        <FontFamily x:Key="MainFont">Assets/ Adzkia</FontFamily>
+        <ImageBrush x:Key="Background" 
+                    ImageSource="C:\Users\lujan\OneDrive\Desktop\FINAL PROJECT SWE344\Snake Game Final project\Snake Game Final project\Assets\Red Spider Lily.jpg" 
+                    Stretch="Fill"/>
+    </Application.Resources>
+</Application>
